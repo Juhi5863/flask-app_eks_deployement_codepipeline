@@ -1,4 +1,8 @@
-version: 0.0
+# used by AWS CodeDeploy
+# how application is deployed on the server tells AWS Code DEPLOY
+
+# formate version of APPspec file --> controlled by AWS, 
+version: 0.0 
 Resources:
   - Python_app:
       Type: KubernetesResource
