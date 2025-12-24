@@ -1,3 +1,6 @@
+# used by AWS CodeBuild
+# purpose --> how code is built and tested
+
 version: 0.2
 phases:
   pre_build:
