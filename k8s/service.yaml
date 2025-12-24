@@ -1,3 +1,9 @@
+# A service expose pods so they can be accessed
+#   1. inside the cluster
+#   2. From outside the cluster
+#   3. Via a stable IP and DNS
+
+
 apiVersion: v1
 kind: Service
 metadata:
